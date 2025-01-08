@@ -1,5 +1,6 @@
 *{
-    background-color: peachpuff;
+    background-color: #f6b89e;
+    font-family: monospace;
 }
 
 
@@ -36,7 +37,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2px;
-    box-sizing: border-box;
+    box-sizing:border-box;
     background-color: black;
     
 }
@@ -45,8 +46,13 @@ button{
     width: 100%;
     height: 75px;
     border-radius: 4px;
-    font-size:xx-large ;
+    border: 1px solid black;
+    font-size: 30px;
     
+}
+
+button:hover{
+    background-color:lightgray;
 }
 
 .operator{
@@ -59,5 +65,9 @@ background-color:cadetblue;}
 #zero{
 
 grid-column: span 2;
+}
+
+.function{
+    background-color:blanchedalmond;
 }
 

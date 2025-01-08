@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
 
-        <div class="display"></div>
+        <div class="display" id="display"></div>
         <div class="buttons">
-            <button>AC</button>
-            <button>+/-</button>
-            <button>%</button>
-            <button class="operator">/</button>
-            <button class="int">7</button>
-            <button class="int">8</button>
-            <button class="int">9</button>
-            <button class="operator">*</button>
-            <button class="int">4</button>
-            <button class="int">5</button>
-            <button class="int">6</button>
-            <button class="operator">-</button>
-            <button class="int">1</button>
-            <button class="int">2</button>
-            <button class="int">3</button>
-            <button class="operator">+</button>
-            <button class="int" id="zero">0</button>
-            <button class="int">.</button>
-            <button>=</button>
+            <button class="function" id="reset" value="reset">AC</button>
+            <button class="function" id="sign" value="sign">+/-</button>
+            <button class="function" id="percent" value="percent">%</button>
+            <button class="operator" id="divide" value="/">/</button>
+            <button class="int" id="7" value="7">7</button>
+            <button class="int" id="8" value="8">8</button>
+            <button class="int" id="9" value="9">9</button>
+            <button class="operator" id="mult" value="*">*</button>
+            <button class="int" id="4" value="4">4</button>
+            <button class="int" id="5" value="5">5</button>
+            <button class="int" id="6" value="6">6</button>
+            <button class="operator" id="sub" value="-">-</button>
+            <button class="int" id="1" value="1">1</button>
+            <button class="int" id="2" value="2">2</button>
+            <button class="int" id="3" value="3">3</button>
+            <button class="operator" id="add" value="+">+</button>
+            <button class="int" id="zero" value="0">0</button>
+            <button class="function" id="decimal" value=".">.</button>
+            <button class="operator" id="equal" value="=">=</button>
 
 
 
 
         </div>
+        <script src="script.js"></script>
     </div>
+    
     
 </body>
 </html>
